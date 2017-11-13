@@ -58,7 +58,7 @@
 *color66:  #272e38
 
 
-URxvt.font:xft:DejaVuSansMono:pixelsize=14
+URxvt.font:xft:SourceCodeProSemiBold:pixelsize=14
 URxvt*depth: 32
 URxvt*background: rgba:0000/0000/0200/c800
 URxvt.transparent: true

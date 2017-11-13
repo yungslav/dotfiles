@@ -1,3 +1,9 @@
 shell set colorscheme snow
 find m
 open_with mpg321
+set show_hidden true
+shell sudo nano %s
+sudo nano %s
+nano %s
+f
+shell feh --bg-scale %s
