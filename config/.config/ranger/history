@@ -1,0 +1,3 @@
+shell set colorscheme snow
+find m
+open_with mpg321

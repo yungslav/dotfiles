@@ -1,0 +1,153 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 1,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 3,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 412,
+               "width": 736,
+               "x": 0,
+               "y": 0
+            },
+            "name": "LTJ Bukem - Close to the source",
+            "percent": 0.263513513513513,
+            "swallows": [
+               {
+                "class": "^URxvt$",
+                "instance": "^urxvt$",
+               // "title": "^LTJ\\ Bukem\\ \\-\\ Close\\ to\\ the\\ source$",
+               // "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            // splith split container with 2 children
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.736486486486487,
+            "type": "con",
+            "nodes": [
+                {
+                    // splith split container with 2 children
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "layout": "splith",
+                    "percent": 0.4998676765081,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "normal",
+                            "current_border_width": 3,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 412,
+                               "width": 736,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "name": "yungslav@yungarch:~",
+                            "percent": 0.5,
+                            "swallows": [
+                               {
+                                "class": "^URxvt$",
+                                "instance": "^urxvt$",
+                               // "title": "^yungslav\\@yungarch\\:\\~$",
+                               // "transient_for": "^$"
+                               }
+                            ],
+                            "type": "con"
+                        },
+                        {
+                            "border": "normal",
+                            "current_border_width": 3,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 412,
+                               "width": 736,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "name": "yungslav@yungarch:~/.config",
+                            "percent": 0.5,
+                            "swallows": [
+                               {
+                                "class": "^URxvt$",
+                               /"instance": "^urxvt$",
+                               // "title": "^yungslav\\@yungarch\\:\\~\\/\\.config$",
+                               // "transient_for": "^$"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
+                },
+                {
+                    // tabbed split container with 2 children
+                    "border": "normal",
+                    "floating": "auto_off",
+                    "layout": "tabbed",
+                    "percent": 0.5001323234919,
+                    "type": "con",
+                    "nodes": [
+                        {
+                            "border": "normal",
+                            "current_border_width": 3,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 976,
+                               "width": 1188,
+                               "x": 0,
+                               "y": 0
+                            },
+                            "name": "i3: Layout saving in i3 - Mozilla Firefox",
+                            "percent": 0.5,
+                            "swallows": [
+                               {
+                               "class": "^Firefox$",
+                               // "instance": "^Navigator$",
+                               // "title": "^i3\\:\\ Layout\\ saving\\ in\\ i3\\ \\-\\ Mozilla\\ Firefox$",
+                               // "transient_for": "^$",
+                               // "window_role": "^browser$"
+                               }
+                            ],
+                            "type": "con"
+                        },
+                        {
+                            "border": "normal",
+                            "current_border_width": 3,
+                            "floating": "auto_off",
+                            "geometry": {
+                               "height": 978,
+                               "width": 1194,
+                               "x": 1355,
+                               "y": 448
+                            },
+                            "name": "config — .config/i3 — /home/yungslav/.config/i3 — Atom",
+                            "percent": 0.5,
+                            "swallows": [
+                               {
+                                 "class": "^Atom$",
+                               // "instance": "^atom$",
+                               // "title": "^config\\ \\—\\ \\.config\\/i3\\ \\—\\ \\/home\\/yungslav\\/\\.config\\/i3\\ \\—\\ Atom$",
+                               // "transient_for": "^$",
+                               // "window_role": "^browser\\-window$"
+                               }
+                            ],
+                            "type": "con"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
